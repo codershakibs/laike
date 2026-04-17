@@ -1,0 +1,175 @@
+/* font import  */
+
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #FD5B03;
+    --color-black: #1D0C02;
+    --color-gray-200: #E5E7EB;
+    --color-gray-500: #6B7280;
+    --color-gray-700: #374151;
+    --color-gray-800: #1F2937;
+    --color-text-body: #14382E;
+    --color-pea-500: #FFB96E;
+}
+
+/* font class  */
+.anton {
+    font-family: "Anton", sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+}
+
+.container {
+    max-width: 1320px !important;
+    width: 100%;
+    margin: auto;
+    padding-inline: 16px;
+}
+
+
+
+@layer base {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.section-padding {
+    padding-block: 140px;
+}
+
+.section-padding-top {
+    padding-top: 140px;
+}
+
+@media (max-width:640px) {
+    .section-padding {
+        padding-block: 40px;
+    }
+
+    .section-padding-top {
+        padding-top: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+/* =========================
+   CSS RESET / BASE
+========================= */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin & padding */
+
+/* HTML & body */
+body {
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: #FFF;
+}
+
+/* tag  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Anton", sans-serif;
+
+}
+
+
+/* Remove link underline */
+a {
+    text-decoration: none;
+}
+
+/* Images responsive */
+img,
+picture,
+video,
+canvas {
+    max-width: 100%;
+    display: block;
+}
+
+/* Form elements inherit font */
+
+
+/* Button cursor */
+button {
+    cursor: pointer;
+}
+
+/* Table reset */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 
+.marquee-track {
+    display: flex;
+    gap: 48px;
+    width: max-content;
+    animation: marquee 28s linear infinite;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+} */
+
+/* custom css  */
+/* Hide scrollbar for clean look */
+
+.nav-list-wrapper {
+    background: rgba(255, 255, 255, 0.10);
+}
