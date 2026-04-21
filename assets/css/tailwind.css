@@ -236,6 +236,15 @@ nav ul li a {
 
 }
 
+@media (max-width:768px) {
+    nav ul li a {
+        padding: 5px;
+        color: white;
+
+    }
+
+}
+
 nav ul li a:hover {
     color: #FFFF;
 }
@@ -244,4 +253,56 @@ nav ul li a:hover {
     .hero-profile-image {
         max-width: none !important;
     }
+}
+
+
+/* মেইন নেভিগেশন (সেন্টার) */
+footer nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer nav>ul>li>a {
+    font-size: 16px;
+    padding: 0;
+    font-weight: 500;
+    line-height: 120%;
+    color: #6B7280;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer nav>ul>li>a:hover {
+    color: #ea580c;
+    /* Tailwind orange-600 */
+}
+
+/* বটম লিংকের নেভিগেশন (নিচে ডান পাশে) */
+footer .bottom-links>ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .bottom-links>ul>li>a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .bottom-links>ul>li>a:hover {
+    color: #ea580c;
 }
