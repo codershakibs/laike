@@ -205,9 +205,9 @@ table {
 /* custom css  */
 /* Hide scrollbar for clean look */
 
-.nav-list-wrapper {
+/* .nav-list-wrapper {
     background: rgba(255, 255, 255, 0.10);
-}
+} */
 
 /* nav links custom  */
 .nav-item {
@@ -305,4 +305,44 @@ footer .bottom-links>ul>li>a {
 
 footer .bottom-links>ul>li>a:hover {
     color: #ea580c;
+}
+
+/* ========================================================
+   Navbar List Custom CSS (Targeting header nav ul)
+   ======================================================== */
+
+header nav ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 14rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    list-style-type: none;
+    margin: 0;
+    transform-origin: top right;
+    z-index: 40;
+    align-items: center;
+}
+
+/* Desktop View (md: min-width: 768px) */
+@media (min-width: 768px) {
+    header nav ul {
+        position: relative;
+        top: auto;
+        width: auto;
+        display: flex !important;
+        flex-direction: row;
+        padding: 0.25rem;
+        border-radius: 9999px;
+        border: none;
+        box-shadow: none;
+        gap: 0.5rem;
+    }
 }
