@@ -357,28 +357,28 @@ header nav ul {
 }
 
 .tools-wrapper {
-    background-image: url('/assets/images/phone.webp');
+    background-image: url('../assets/images/phone.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .tools-wrapper-2 {
-    background-image: url('/assets/images/tool-bg.webp');
+    background-image: url('../assets/images/tool-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .cta-wrapper {
-    background-image: url('/assets/images/cta-bg.webp');
+    background-image: url('../assets/images/cta-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .project-header {
-    background-image: url('/assets/images/hero-bg.webp');
+    background-image: url('../assets/images/hero-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
