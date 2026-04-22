@@ -648,26 +648,14 @@
   .bg-\[linear-gradient\(to_right\,\#ea580c_50\%\,\#d1d5db_50\%\)\] {
     background-image: linear-gradient(to right,#ea580c 50%,#d1d5db 50%);
   }
-  .bg-\[url\(\'\/assets\/images\/hero-bg\.webp\'\)\] {
-    background-image: url('/assets/images/hero-bg.webp');
-  }
   .bg-\[length\:200\%_100\%\] {
     background-size: 200% 100%;
-  }
-  .bg-cover {
-    background-size: cover;
   }
   .bg-clip-text {
     background-clip: text;
   }
   .bg-\[position\:100\%_0\] {
     background-position: 100% 0;
-  }
-  .bg-center {
-    background-position: center;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .object-cover {
     object-fit: cover;
@@ -1711,7 +1699,7 @@ header nav ul {
   }
 }
 .home-header {
-  background-image: url('/assets/images/hero-bg.webp');
+  background-image: url('../images/hero-bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

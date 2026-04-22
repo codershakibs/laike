@@ -349,7 +349,7 @@ header nav ul {
 
 
 .home-header {
-    background-image: url('/assets/images/hero-bg.webp');
+    background-image: url('../images/hero-bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
