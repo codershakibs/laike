@@ -8,17 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-
     <link
         href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header
-        class=" text-white m-3 rounded-3xl overflow-hidden bg-[url('/assets/images/hero-bg.webp')] bg-cover bg-center bg-no-repeat bg-w-full bg-gray-200">
+    <header class="project-header text-white m-3 rounded-3xl overflow-hidden bg-gray-200">
 
         <div class="container">
             <nav class="flex items-center justify-between w-full relative z-50 pt-[20px]">
@@ -70,7 +67,7 @@
 
     <section class="section-padding bg-gray-100 relative z-10">
         <div class="container">
-            <div class="bg-[#f9fafb] rounded-[32px] p-10">
+            <div class="bg-[#f9fafb] rounded-[32px] lg:p-10 py-10 px-4">
                 <h2
                     class="gsap-scroll-reveal anton lg:text-[56px] text-[40px] font-normal leading-[120%] uppercase text-[#1a1511] lg:pb-6 pb-4">
                     PROJECT OVERVIEW
@@ -88,23 +85,23 @@
                     across all touchpoints.
                 </p>
 
-                <div class="flex">
+                <div class="flex lg:flex-row flex-col">
 
                     <div class="flex flex-col md:pr-8">
                         <p class="text-[32px] font-medium leading-[120%] text-primary mb-2">347%</p>
                         <p class="text-[16px] font-normal leading-[150%] text-gray-600">Productivity Increase</p>
                     </div>
-                    <div class="h-[70px] w-px bg-gray-300 mx-[60px]"></div>
+                    <div class="lg:h-[70px] h-px lg:w-px w-full bg-gray-300 lg:mx-[60px] my-4"></div>
                     <div class="flex flex-col md:pr-8">
                         <p class="text-[32px] font-medium leading-[120%] text-primary mb-2">$2.4M</p>
                         <p class="text-[16px] font-normal leading-[150%] text-gray-600">Annual Cost Savings</p>
                     </div>
-                    <div class="h-[70px] w-px bg-gray-300 mx-[60px]"></div>
+                    <div class="lg:h-[70px] h-px lg:w-px w-full bg-gray-300 lg:mx-[60px] my-4"></div>
                     <div class="flex flex-col md:pr-8">
                         <p class="text-[32px] font-medium leading-[120%] text-primary mb-2">18 Months</p>
                         <p class="text-[16px] font-normal leading-[150%] text-gray-600">Project Duration</p>
                     </div>
-                    <div class="h-[70px] w-px bg-gray-300 mx-[60px]"></div>
+                    <div class="lg:h-[70px] h-px lg:w-px w-full bg-gray-300 lg:mx-[60px] my-4"></div>
                     <div class="flex flex-col md:pr-8">
                         <p class="text-[32px] font-medium leading-[120%] text-primary mb-2">12,000+</p>
                         <p class="text-[16px] font-normal leading-[150%] text-gray-600">Active Users</p>
@@ -121,14 +118,14 @@
                 </div>
 
             </div>
-            <div class="py-[64px]">
+            <div class="lg:py-[64px] py-10">
                 <img class="rounded-3xl" src="assets/images/project-media-1.webp" alt="">
             </div>
             <div class="section-padding bg-gray-100 relative z-10">
                 <div
-                    class="bg-white rounded-[32px] p-8 md:p-10 lg:p-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-6">
+                    class="bg-white rounded-[32px] lg:p-8 p-6 flex flex-col md:flex-row justify-between items-start md:items-center lg:gap-8 gap-6 mb-6">
                     <h2
-                        class="gsap-scroll-reveal anton lg:text-[56px] text-[40px] font-normal leading-[120%] uppercase text-[#1a1511] md:max-w-[50%]">
+                        class="gsap-scroll-reveal anton lg:text-[56px] text-[32px] font-normal leading-[120%] uppercase text-[#1a1511] md:max-w-[50%]">
                         THE JOURNEY TO<br>BUILDING POWERFUL BRANDS
                     </h2>
                     <div class="md:max-w-[40%]">
@@ -145,7 +142,7 @@
                         class="group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
 
                         <div
-                            class="w-[56px] h-[56px] bg-[#f1f2f4] rounded-[8px] flex items-center justify-center lg:mb-10 mb-4">
+                            class="w-[56px] h-[56px] bg-[#f1f2f4] rounded-[8px] flex items-center justify-center lg:mb-[32px] mb-4">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -274,7 +271,7 @@
 
                 </div>
             </div>
-            <div class="flex flex-col gap-[64px]">
+            <div class="flex flex-col lg:gap-[64px] gap-5">
                 <div>
                     <img class="rounded-3xl" src="assets/images/project-image-1.webp" alt="">
                 </div>
@@ -415,8 +412,7 @@
     <!-- cta section  -->
     <section class="section-padding bg-gray-100 relative z-10">
         <div class="container">
-            <div
-                class="relative w-full rounded-[32px] overflow-hidden bg-[url('/assets/images/cta-bg.webp')] bg-cover bg-center bg-no-repeat">
+            <div class="cta-wrapper relative w-full rounded-[32px] overflow-hidden">
 
                 <div
                     class="lg:py-[74px] lg:pl-[64px] pt-[132px] pl-6 pr-6 pb-6 flex flex-col justify-center relative z-10">

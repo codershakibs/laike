@@ -18,7 +18,7 @@
 
 <body>
     <header
-        class=" text-white m-3 rounded-3xl overflow-hidden bg-[url('/assets/images/hero-bg.webp')] bg-cover bg-center bg-no-repeat bg-w-full bg-gray-200">
+        class="project-header text-white m-3 rounded-3xl overflow-hidden bg-gray-200">
 
         <div class="container">
             <nav class="flex items-center justify-between w-full relative z-50 pt-[20px]">
@@ -69,28 +69,25 @@
     </header>
 
     <!-- tab section  -->
-    <section class="section-padding bg-gray-200">
+    <section class="lg:py-[64px] py-[40px] bg-gray-200">
         <div class="container">
 
             <div
-                class="hidden md:flex relative w-max mb-12 px-1 py-1 items-center bg-white rounded-[1000px] border border-gray-100 shadow-sm mx-auto lg:mx-0">
+                class="hidden md:flex relative w-max mb-12 px-1 py-1 items-center bg-white rounded-[1000px] border border-gray-100 mx-auto lg:mx-0">
                 <div id="tab-indicator"
                     class="absolute top-1 left-1 h-[calc(100%-8px)] bg-primary rounded-full transition-all duration-300 ease-out z-0">
                 </div>
                 <button
                     class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-white transition-colors duration-300"
                     data-filter="all">All</button>
-                <button
-                    class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 hover:text-black transition-colors duration-300"
+                <button class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 "
                     data-filter="branding">Branding</button>
-                <button
-                    class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 hover:text-black transition-colors duration-300"
+                <button class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 "
                     data-filter="web-design">Web Design</button>
                 <button
-                    class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 hover:text-black transition-colors duration-300"
+                    class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 h"
                     data-filter="mobile-app">Mobile App</button>
-                <button
-                    class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500 hover:text-black transition-colors duration-300"
+                <button class="filter-tab relative z-10 px-6 py-3 text-[16px] font-medium leading-[120%] text-gray-500"
                     data-filter="saas">Saas Design</button>
             </div>
 
@@ -365,8 +362,7 @@
     <!-- cta section  -->
     <section class="section-padding bg-gray-100 relative z-10">
         <div class="container">
-            <div
-                class="relative w-full rounded-[32px] overflow-hidden bg-[url('/assets/images/cta-bg.webp')] bg-cover bg-center bg-no-repeat">
+            <div class="cta-wrapper relative w-full rounded-[32px] overflow-hidden">
 
                 <div
                     class="lg:py-[74px] lg:pl-[64px] pt-[132px] pl-6 pr-6 pb-6 flex flex-col justify-center relative z-10">
