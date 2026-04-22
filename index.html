@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="home-header text-white m-3 rounded-3xl overflow-hidden bg-gray-100">
+    <header class="home-header text-white m-3 rounded-3xl overflow-hidden bg-gray-200">
 
         <div class="container">
             <nav class="flex items-center justify-between w-full relative z-50 pt-[20px]">
@@ -62,7 +62,8 @@
                         </h1>
                     </div>
 
-                    <div class="flex lg:flex-row flex-col sm:flex-row lg:gap-5 gap-2 lg:w-auto w-full">
+                    <div id="hero-btn-group"
+                        class="flex lg:flex-row flex-col sm:flex-row lg:gap-5 gap-2 lg:w-auto w-full">
 
                         <a href="#"
                             class="group flex items-center justify-between bg-white text-black py-2 pl-[20px] pr-2 rounded-full font-bold text-lg shadow-sm gap-2.5">
@@ -171,7 +172,7 @@
     </header>
 
     <!-- work section  -->
-    <section id="about-text-section" class="section-padding bg-gray-100 relative z-10">
+    <section id="about-text-section" class="section-padding bg-gray-200 relative z-10">
         <div class="container mx-auto px-6 md:px-12">
 
             <div class="max-w-[1089px] lg:mb-8 mb-6">
@@ -291,11 +292,10 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 lg:gap-6">
+            <div class="journey-cards-wrapper grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4 lg:gap-6">
 
                 <div
-                    class="group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
-
+                    class="journey-card group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
                     <div
                         class="w-[56px] h-[56px] bg-[#f1f2f4] rounded-[8px] flex items-center justify-center lg:mb-10 mb-4">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,16 +304,13 @@
                                 fill="#4B5563" />
                         </svg>
                     </div>
-
                     <h3
                         class="anton text-[32px] font-normal leading-[120%] uppercase bg-clip-text text-transparent bg-[linear-gradient(to_right,#ea580c_50%,#000_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                         DISCOVERY
                     </h3>
-
                     <div
                         class="h-px w-full lg:mt-8 mt-6 lg:mb-5 mb-4 bg-[linear-gradient(to_right,#ea580c_50%,#d1d5db_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                     </div>
-
                     <p class="text-[20px] font-bold leading-[120%] text-black pb-4">Understanding your brand's essence
                     </p>
                     <p class="text-[18px] font-normal leading-[140%] text-gray-700">
@@ -323,7 +320,7 @@
                 </div>
 
                 <div
-                    class="group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
+                    class="journey-card group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
                     <div
                         class="w-[56px] h-[56px] bg-[#f1f2f4] rounded-[8px] flex items-center justify-center lg:mb-10 mb-4">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -353,16 +350,13 @@
                                 fill="#F59E0B" />
                         </svg>
                     </div>
-
                     <h3
                         class="anton text-[32px] font-normal leading-[120%] uppercase bg-clip-text text-transparent bg-[linear-gradient(to_right,#ea580c_50%,#000_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                         Concept
                     </h3>
-
                     <div
                         class="h-px w-full lg:mt-8 mt-6 lg:mb-5 mb-4 bg-[linear-gradient(to_right,#ea580c_50%,#d1d5db_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                     </div>
-
                     <p class="text-[20px] font-bold leading-[120%] text-black pb-4">Crafting creative and strategic
                         directions</p>
                     <p class="text-[18px] font-normal leading-[140%] text-gray-700">
@@ -372,7 +366,7 @@
                 </div>
 
                 <div
-                    class="group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
+                    class="journey-card group bg-gray-50 rounded-3xl p-8 md:p-4 lg:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer">
                     <div
                         class="w-[56px] h-[56px] bg-[#f1f2f4] rounded-[8px] flex items-center justify-center lg:mb-10 mb-4">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -399,16 +393,13 @@
                                 fill="#22C55E" />
                         </svg>
                     </div>
-
                     <h3
                         class="anton text-[32px] font-normal leading-[120%] uppercase bg-clip-text text-transparent bg-[linear-gradient(to_right,#ea580c_50%,#000_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                         Delivery
                     </h3>
-
                     <div
                         class="h-px w-full lg:mt-8 mt-6 lg:mb-5 mb-4 bg-[linear-gradient(to_right,#ea580c_50%,#d1d5db_50%)] bg-[length:200%_100%] bg-[position:100%_0] transition-all duration-1000 ease-out group-hover:bg-[position:0_0]">
                     </div>
-
                     <p class="text-[20px] font-bold leading-[120%] text-black pb-4">Seamless brand implementation</p>
                     <p class="text-[18px] font-normal leading-[140%] text-gray-700">
                         We provide all necessary brand assets and guidelines for consistent and effective implementation
@@ -567,7 +558,7 @@
         </div>
 
         <div class="container relative z-20">
-            <div class="lg:py-[152px] pt-[282px] pb-6 lg:pl-[96px] relative">
+            <div class="lg:py-[152px] pt-[282px] pb-6 relative">
                 <h2
                     class="gsap-scroll-reveal lg:text-[64px] text-4xl font-normal leading-[120%] uppercase text-white lg:max-w-[450px] lg:pb-6 pb-4">
                     The Tools I Use to Create Brands

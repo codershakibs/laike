@@ -1456,11 +1456,6 @@
       padding-left: 64px;
     }
   }
-  .lg\:pl-\[96px\] {
-    @media (width >= 64rem) {
-      padding-left: 96px;
-    }
-  }
   .lg\:text-\[18px\] {
     @media (width >= 64rem) {
       font-size: 18px;
@@ -1569,7 +1564,7 @@ html.lenis, html.lenis body {
 body {
   height: 100%;
   font-family: "Inter", sans-serif;
-  background-color: #FFF;
+  background-color: var(--color-gray-200);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Anton", sans-serif;
@@ -1703,7 +1698,6 @@ header nav ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
 }
 .tools-wrapper {
   background-image: url('../images/phone.webp');
@@ -1728,7 +1722,6 @@ header nav ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
 }
 @property --tw-translate-x {
   syntax: "*";

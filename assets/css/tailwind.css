@@ -132,7 +132,7 @@ html.lenis body {
 body {
     height: 100%;
     font-family: "Inter", sans-serif;
-    background-color: #FFF;
+    background-color: var(--color-gray-200);
 }
 
 /* tag  */
@@ -353,7 +353,6 @@ header nav ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
 }
 
 .tools-wrapper {
@@ -382,5 +381,4 @@ header nav ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
 }
